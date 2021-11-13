@@ -224,7 +224,8 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     text-transform: uppercase;
-    margin: 0;
+    margin-bottom: 10px;
+
 }
 
 .text {
