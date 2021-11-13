@@ -32,12 +32,15 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /* ------шапка сайта------ */
 .header-container {
     display: flex;
@@ -47,6 +50,8 @@ body {
 
 .header {
     margin: 0;
+    border-bottom: 1px solid #ECECEC;
+;
 }
 .header-navigation {
     display: flex;
@@ -165,7 +170,6 @@ body {
 /* ----------------стиль для страницы портфолио ----------------*/
 .filtr {
     display: flex;
-    margin-top: 94px;
     margin-bottom: 54px;
     justify-content: center;
     text-align: center;
@@ -180,6 +184,7 @@ body {
 .portfolio {
     margin-right: 30px;
     margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
 }
 .portfolio:nth-child(3n) {
     margin-right: 0px;
@@ -209,9 +214,9 @@ body {
 .proect-card {
     display: flex;
     align-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 94px;
+    flex-wrap: wrap;    
 }
+
 .title {
     font-weight: 700px;
     font-size: 14px;
@@ -232,13 +237,11 @@ body {
 .work,
 .team-title {
     margin-top: 0;
-
     font-weight: 700px;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: var(--title-text-color);
 }
 
@@ -268,7 +271,6 @@ body {
 
 .benefits {
     display: flex;
-    padding: 94px 0;
 }
 
 .benefits-text:not(:last-child) {
@@ -278,7 +280,6 @@ body {
 .galery {
     display: flex;
     margin-top: 50px;
-    margin-bottom: 94px;
     
 }
 .img-work:not(:last-child) {
@@ -291,10 +292,8 @@ body {
 }
 .team {
     display: flex;
-    padding-bottom: 94px;
 }
 .team-title {
-    padding-top: 94px;
     padding-bottom: 50px;
     
 }
