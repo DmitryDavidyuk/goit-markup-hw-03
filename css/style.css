@@ -41,6 +41,10 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+.section-work {
+    padding-top: 0;
+}
 /* ------шапка сайта------ */
 .header-container {
     display: flex;
@@ -196,6 +200,7 @@ body {
     padding-bottom: 20px;
 }
 .filtr-btn {
+    padding: 10px 22px;
     display: inline-block;
     border-radius: 4px;
     font-weight: 700;
